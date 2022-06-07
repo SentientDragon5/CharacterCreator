@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e804988e3bc440c39dd868faacfc5fd, type: 3}
+  m_Name: SimpleChar
+  m_EditorClassIdentifier: 
+  layers:
+  - options:
+    - {fileID: 2800000, guid: 72da280f298ed469890d14689b6da3b9, type: 3}
+    required: 1
+  - options:
+    - {fileID: 2800000, guid: 5b8daff8bb5054bf59580dcdfa9fd66a, type: 3}
+    - {fileID: 2800000, guid: 921041b3d27ce45568d139efd92c5461, type: 3}
+    required: 0
+  - options:
+    - {fileID: 2800000, guid: 7be5caa82f4184018b55c9aac2922986, type: 3}
+    - {fileID: 2800000, guid: 5693900f317d54763bb4fa746a3da551, type: 3}
+    required: 0
+  - options:
+    - {fileID: 2800000, guid: 4e847ed35c766427a8afe3e6252ce092, type: 3}
+    - {fileID: 2800000, guid: c29edc824be764b7382dc9717a5b31bf, type: 3}
+    required: 0
+  choices: 00000000000000000000000000000000
+  sliceSize: {x: 16, y: 16}
+  assetPath: CharacterCreator/SimpleCharacter
+  _name: Female
+  preview: {fileID: 0}
